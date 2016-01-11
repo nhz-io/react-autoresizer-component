@@ -27,10 +27,10 @@ npm run dist
 
 ## [VERSION](HISTORY)
 
-### 0.0.1
+### 0.0.2
 
 [travis-image]: https://travis-ci.org/nhz-io/react-autoresizer-component.svg
-[travis-url]: https://travis-ci.org/nhz-io/react-autoresizer-component}
+[travis-url]: https://travis-ci.org/nhz-io/react-autoresizer-component
 
 [npm-image]: https://img.shields.io/npm/v/react-autoresizer-component.svg?style=flat
 [npm-url]: https://www.npmjs.com/package/react-autoresizer-component
