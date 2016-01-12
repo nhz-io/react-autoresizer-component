@@ -1,3 +1,4 @@
+w
 # react-autoresizer-component [![Build Status][travis-image]][travis-url] [![NPM][npm-image]][npm-url]
 
 ## React component that responds to the window size changes
@@ -27,7 +28,7 @@ npm run dist
 
 ## [VERSION](HISTORY)
 
-### 0.0.3
+### 0.0.5
 
 [travis-image]: https://travis-ci.org/nhz-io/react-autoresizer-component.svg
 [travis-url]: https://travis-ci.org/nhz-io/react-autoresizer-component
