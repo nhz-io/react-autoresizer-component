@@ -1,10 +1,18 @@
 language: node_js
 node_js:
-- "0.11"
-- "0.12"
-- "iojs"
-- "4.2"
-- "5.1"
-matrix:
+- '0.11'
+- '0.12'
+- iojs
+- '4.2'
+- '5.1'
+matrix: 
 fast_finish: true
-script: "npm run-script dist"
+script: npm run-script dist
+deploy:
+  provider: npm
+  email: dev@nhz.io
+  api_key:
+    secure: IvhBMmMKO+/TA18cUAZEH4GK3tDjSAC8rDqT6aGtiobPYMCVY9lDjROmuWeRXteo+TpBFS6tqfaGx5MbR/FTbyQ00W+qDipnehoY5gGtlAhJvgS3Flb47a6dwzvz43T5OwD+9EcNHwq0jrSCMEnwSdDsNnjB2eMiAsxvQdn0Siqn4/MlrDetveOeoRpjRg1aPO1p9CbJKFIv8zoPotA3xpMoJc671yn0tYCgZa2WrVxwHN+bvVqmn6yiJbq1KWVnQg9cTvnXI4ff0jeK3/WoD37OINvGfabDepycqEam/OisWr94WplkXUqZF5vFZKyOV7RKGgY0vjcHBjMVLcZZWrx6tZcAoJMn9qy57b7dqxXKZz32PQwa8cnhOkA+7Wk558zQwi0zub22s+xMdn62wlRQ5EAk5yMvZHqhQC8/1ge6oMPHnboP8M/xZznxtr1+2HVnzS1IsO0HuUJb7cSTudrYw1gY3iz0gUfw4vKCg9k8U4DioH8SUdHNKJASycTGsXFl5TlpCAVrOrHmQxj2BLo5EcXmMTln8sXsHnDBl9OD/1Qoz8XVd5zFSfYH6EY0U0IhMtfYu7czwcrINWgGWjDsv4l8Oxf8PrC0B8vbI6afqGMGHQI+jg54Cgqv1kWWQzy0zwgbHeAsJvYoxaq684u1IopZfafwmlyOKuSUxy8=
+  on:
+    tags: true
+    repo: nhz-io/react-autoresizer-component
