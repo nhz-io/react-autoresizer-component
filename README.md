@@ -1,4 +1,12 @@
-# react-autoresizer-component [![Build Status][travis-image]][travis-url] [![NPM][npm-image]][npm-url]
+# react-autoresizer-component 
+
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status](https://coveralls.io/repos/github/nhz-io/react-autoresizer-component/badge.svg?branch=master)](https://coveralls.io/github/nhz-io/react-autoresizer-component?branch=master)
+[![NPM][npm-image]][npm-url]
+[![bitHound Overall Score](https://www.bithound.io/github/nhz-io/react-autoresizer-component/badges/score.svg)](https://www.bithound.io/github/nhz-io/react-autoresizer-component)
+[![bitHound Dependencies](https://www.bithound.io/github/nhz-io/react-autoresizer-component/badges/dependencies.svg)](https://www.bithound.io/github/nhz-io/react-autoresizer-component/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://www.bithound.io/github/nhz-io/react-autoresizer-component/badges/devDependencies.svg)](https://www.bithound.io/github/nhz-io/react-autoresizer-component/master/dependencies/npm)
+[![bitHound Code](https://www.bithound.io/github/nhz-io/react-autoresizer-component/badges/code.svg)](https://www.bithound.io/github/nhz-io/react-autoresizer-component)
 
 ## React component that responds to the window size changes
 
